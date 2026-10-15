@@ -1,0 +1,22 @@
+project:
+  type: website
+
+website:
+  title: "Engineering Foundations Through Building a Workflow Engine"
+  sidebar:
+    style: docked
+    search: true
+    contents:
+      - course/index.qmd
+      - course/methodology.qmd
+      - course/roadmap.qmd
+      - course/glossary.qmd
+      - section: "Bootcamp"
+        contents:
+          - course/00_bootcamp/lego_00.qmd
+
+format:
+  html:
+    toc: true
+    code-copy: true
+    code-overflow: wrap
