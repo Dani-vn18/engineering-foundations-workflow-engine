@@ -1,0 +1,31 @@
+---
+title: "Glossary"
+---
+
+# Living glossary
+
+This file grows as concepts earn their way into the project.
+
+## Problem
+An undesirable situation or unmet need we want to change.
+
+## Requirement
+A behavior or property the system must satisfy.
+
+## Constraint
+A limitation on the solution space.
+
+## Assumption
+Something we currently treat as true in order to reason or design. Assumptions can be wrong.
+
+## Invariant
+A condition that must remain true for the system to be considered correct.
+
+## Trade-off
+A decision where improving one property usually costs another property.
+
+## Failure mode
+A specific way in which a system or component can fail.
+
+## Correctness
+The degree to which the system satisfies its specified behavior and invariants.
