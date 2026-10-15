@@ -1,0 +1,30 @@
+---
+title: "Roadmap"
+---
+
+# Roadmap
+
+The roadmap is directional, not contractual. Later blocks may move when the system teaches us that a different order is more useful.
+
+1. Lego 00 — Thinking in problems, requirements, assumptions, invariants and failure modes
+2. Python as an engineering tool
+3. Domain modeling
+4. State machines
+5. Testing and correctness
+6. Persistence
+7. PostgreSQL and transactions
+8. HTTP and networking
+9. API design
+10. Software architecture
+11. Concurrency and `asyncio`
+12. Background work, queues and workers
+13. Distributed systems
+14. Reliability patterns
+15. Observability
+16. Performance and scalability
+17. Containers and deployment
+18. Cloud and infrastructure as code
+19. Security and multi-tenancy
+20. AI-enabled workflows
+
+The project should remain as simple as possible at every stage.
