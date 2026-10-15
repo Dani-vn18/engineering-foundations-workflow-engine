@@ -1,0 +1,61 @@
+---
+title: "Methodology"
+---
+
+# How this bootcamp works
+
+## The learning loop
+
+Every Lego follows the same sequence:
+
+1. **Problem** — what observable difficulty are we trying to solve?
+2. **Mental model** — what simple analogy helps us reason about it?
+3. **Minimal theory** — what vocabulary and mechanisms are necessary?
+4. **Prediction** — what do you think will happen before running anything?
+5. **Experiment** — observe reality.
+6. **Alternatives** — what other approaches could solve the problem?
+7. **Trade-offs** — what does each option optimize and sacrifice?
+8. **Decision** — choose under explicit constraints.
+9. **Implementation** — build the smallest justified solution.
+10. **Tests** — encode expected behavior and invariants.
+11. **Failure experiment** — deliberately break assumptions.
+12. **Review** — examine correctness, coupling, complexity and clarity.
+13. **Reflection** — record what changed in your mental model.
+
+## Assistance levels
+
+When stuck, request help progressively:
+
+- Level 0 — Socratic question.
+- Level 1 — conceptual hint.
+- Level 2 — pseudocode or a more specific direction.
+- Level 3 — relevant code fragment.
+- Level 4 — complete solution, only when explicitly requested.
+
+## The rule of earned complexity
+
+A technology or abstraction must answer:
+
+> What concrete problem in the current system justifies this complexity?
+
+Bad justification:
+
+> "Kafka scales."
+
+Better justification:
+
+> "We need multiple independent consumers to replay an ordered event history, and our measured workload plus operational constraints justify a durable log."
+
+## Definition of understanding
+
+Do not mark a topic complete only because the code works.
+
+You should progressively be able to answer:
+
+- What is it?
+- What problem does it solve?
+- How does a minimal version work?
+- What alternatives exist?
+- What trade-offs matter?
+- When should I not use it?
+- What fails if one of its assumptions stops being true?
