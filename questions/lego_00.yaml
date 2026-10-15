@@ -1,0 +1,24 @@
+questions:
+  - id: lego00-01
+    level: intuition
+    question: "Explain the difference between a problem and a solution choice using this workflow."
+
+  - id: lego00-02
+    level: classification
+    question: "Classify 'tasks must execute in order'."
+
+  - id: lego00-03
+    level: classification
+    question: "Classify 'we will use a Python class called Workflow'."
+
+  - id: lego00-04
+    level: failure
+    question: "Task A succeeds, Task B fails, and the process exits. What information is recoverable with the current design?"
+
+  - id: lego00-05
+    level: design
+    question: "What new requirement would justify introducing persistence?"
+
+  - id: lego00-06
+    level: critique
+    question: "Why would adding Redis in Lego 00 be unjustified complexity?"
